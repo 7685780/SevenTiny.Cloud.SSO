@@ -9,12 +9,7 @@ namespace SevenTiny.Cloud.SSO.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SettingController : ControllerBase
+    public class ApplicationController : ControllerBase
     {
-        [Route("Te")]
-        public IActionResult Test()
-        {
-            return null;
-        }
     }
 }

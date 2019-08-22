@@ -5,7 +5,7 @@ using System.Text;
 namespace SevenTiny.Cloud.SSO.Core.Entity
 {
     /// <summary>
-    /// 权限【数据库管理字段】
+    /// 权限【权限配置维护】
     /// </summary>
     public class Permission
     {
