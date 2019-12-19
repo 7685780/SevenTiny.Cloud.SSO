@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenTiny.Cloud.SSO.Core", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.SevenTiny.Cloud.SSO", "Tests\Test.SevenTiny.Cloud.SSO\Test.SevenTiny.Cloud.SSO.csproj", "{6B8FD508-7C63-4D30-9BC4-2775E0D0E814}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{52455099-E51A-49F0-82F0-F80A1441BDD0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Tests", "00-Tests", "{52455099-E51A-49F0-82F0-F80A1441BDD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FF7D30B8-5B44-4126-AD52-5B1BD6BA9DFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{EC102262-6E8F-4E1C-9FA3-1CA10883296C} = {FF7D30B8-5B44-4126-AD52-5B1BD6BA9DFD}
 		{6B8FD508-7C63-4D30-9BC4-2775E0D0E814} = {52455099-E51A-49F0-82F0-F80A1441BDD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
