@@ -20,10 +20,18 @@ namespace SevenTiny.Cloud.SSO.Core.Entity
         /// <summary>
         /// 开通时间
         /// </summary>
-        public DateTime StartTime { get; set; }
+        public DateTime StartTime { get; set; } = DateTime.Now;
+        /// <summary>
+        /// 生效时间
+        /// </summary>
+        public DateTime EffectiveTime { get; set; } = DateTime.Now;
         /// <summary>
         /// 过期时间
         /// </summary>
         public DateTime ExpiredTime { get; set; }
+        /// <summary>
+        /// 联系人
+        /// </summary>
+        public string Contacts { get; set; }
     }
 }

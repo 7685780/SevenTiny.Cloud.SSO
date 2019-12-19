@@ -22,7 +22,7 @@ namespace SevenTiny.Cloud.SSO.Core.Entity
         /// </summary>
         public int GoupId { get; set; }
         /// <summary>
-        /// 姓名
+        /// 账号名称
         /// </summary>
         public string Name { get; set; }
         /// <summary>
