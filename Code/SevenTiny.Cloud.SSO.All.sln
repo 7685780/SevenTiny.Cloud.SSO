@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenTiny.Cloud.SSO.Api", "..\10-Code\SevenTiny.Cloud.SSO.Api\SevenTiny.Cloud.SSO.Api.csproj", "{EC102262-6E8F-4E1C-9FA3-1CA10883296C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenTiny.Cloud.SSO.Api", "SevenTiny.Cloud.SSO.Api\SevenTiny.Cloud.SSO.Api.csproj", "{EC102262-6E8F-4E1C-9FA3-1CA10883296C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenTiny.Cloud.SSO.Infrastructure", "..\10-Code\SevenTiny.Cloud.SSO.Infrastructure\SevenTiny.Cloud.SSO.Infrastructure.csproj", "{4A5D2592-6697-42A4-A8BB-0FE3DDFEB9F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenTiny.Cloud.SSO.Infrastructure", "SevenTiny.Cloud.SSO.Infrastructure\SevenTiny.Cloud.SSO.Infrastructure.csproj", "{4A5D2592-6697-42A4-A8BB-0FE3DDFEB9F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenTiny.Cloud.SSO.Core", "..\10-Code\SevenTiny.Cloud.SSO.Core\SevenTiny.Cloud.SSO.Core.csproj", "{B900087F-9769-4BDE-9139-B5CF4D1C23CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenTiny.Cloud.SSO.Core", "SevenTiny.Cloud.SSO.Core\SevenTiny.Cloud.SSO.Core.csproj", "{B900087F-9769-4BDE-9139-B5CF4D1C23CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.SevenTiny.Cloud.SSO", "..\10-Code\Test.SevenTiny.Cloud.SSO\Test.SevenTiny.Cloud.SSO.csproj", "{6B8FD508-7C63-4D30-9BC4-2775E0D0E814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.SevenTiny.Cloud.SSO", "Tests\Test.SevenTiny.Cloud.SSO\Test.SevenTiny.Cloud.SSO.csproj", "{6B8FD508-7C63-4D30-9BC4-2775E0D0E814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{52455099-E51A-49F0-82F0-F80A1441BDD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B8FD508-7C63-4D30-9BC4-2775E0D0E814} = {52455099-E51A-49F0-82F0-F80A1441BDD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D009519-F9FB-4725-9D36-06ECFE9CED7C}
